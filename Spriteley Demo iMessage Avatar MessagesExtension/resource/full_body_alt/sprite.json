@@ -1,0 +1,715 @@
+{
+	"uuid":"a273caca-9364-4ca7-a86f-7e651374274b",
+	"display_name_full":"Jonathan Joestar",
+	"display_name_short":"JoJo",
+	"updated": 1646943228249,
+	"type":"ava",
+	"length": 9.999998999999999,
+	"width": 12.641426,
+	"depth": 6.275201,
+	"minimums":{
+		"x":0,
+		"y":0,
+		"z":0
+	},
+	"maximums":{
+		"x":0,
+		"y":0,
+		"z":0
+	},
+	"center": {
+		"x": 4.9999994999999995,
+        "y": -5.375582,
+        "z": 0.13760050000000007
+	},
+	"unit_of_measure": "met",
+	"state": [],
+	"top":{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"front":{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"objects": [
+		{
+			"id":"head",
+			"mesh_file":"head.obj",
+			"material_file":"head.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0.19758331233305104,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0.18282175
+			},
+			"scale": {
+				"x": 2.0,
+				"y": 2.0,
+				"z": 2.0
+			},
+			"rotation_angles": {
+				"x": 45.0,
+				"y": 45.0,
+				"z": 45.0
+			},
+			"attach_points":[
+				{
+					"id":"neck",
+					"x": 0,
+					"y": -1.049927,
+					"z": 0.243996
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"torso_upper",
+			"mesh_file":"torso_upper.obj",
+			"material_file":"torso_upper.mtl",
+			"unit_of_measure":"met",
+			"resolution": 1.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 45.0,
+				"y": 45.0,
+				"z": 45.0
+			},
+			"attach_points":[
+				{
+					"id":"neck",
+					"x": 0,
+					"y": 1.452465,
+					"z": 0.10531
+				},
+                {
+					"id":"left_shoulder",
+					"x": 1.699063,
+					"y": 0.533759,
+					"z": -0.001086
+				},
+                {
+					"id":"right_shoulder",
+					"x": -1.699063,
+					"y": 0.533759,
+					"z": -0.001086
+				},
+                {
+					"id":"abdomen",
+					"x": 0.0,
+        			"y": -1.68978,
+        			"z": -0.001086
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"torso_lower",
+			"mesh_file":"torso_lower.obj",
+			"material_file":"torso_lower.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 60.0,
+				"y": 60.0,
+				"z": 60.0
+			},
+			"attach_points":[
+				{
+					"id":"abdomen",
+					"x": 0,
+					"y": 1.041271,
+					"z": 0.102664
+				},
+                {
+					"id":"left_hip",
+					"x": 0.653378,
+					"y": -1.019937,
+					"z": -0.035323
+				},
+                {
+					"id":"right_hip",
+					"x": -0.653378,
+					"y": -1.019937,
+					"z": -0.035323
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_arm_upper",
+			"mesh_file":"left_arm_upper.obj",
+			"material_file":"left_arm_upper.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 60.0,
+				"y": 60.0,
+				"z": 60.0
+			},
+			"attach_points":[
+				{
+					"id":"left_shoulder",
+					"x": 0,
+					"y": 0.939597,
+					"z": 0
+				},
+                {
+					"id":"left_elbow",
+					"x": 0,
+					"y": -0.939598,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_arm_lower",
+			"mesh_file":"left_arm_lower.obj",
+			"material_file":"left_arm_lower.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"left_elbow",
+					"x": 0,
+					"y": 0.939597,
+					"z": 0
+				},
+                {
+					"id":"left_wrist",
+					"x": 0,
+					"y": -0.939598,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_hand",
+			"mesh_file":"left_hand.obj",
+			"material_file":"left_hand.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"left_wrist",
+					"x": 0.081075,
+					"y": 0.619716,
+					"z": -0.063217
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_arm_upper",
+			"mesh_file":"right_arm_upper.obj",
+			"material_file":"right_arm_upper.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+				{
+					"id":"right_shoulder",
+					"x": 0,
+					"y": 0.939597,
+					"z": 0
+				},
+                {
+					"id":"right_elbow",
+					"x": 0,
+					"y": -0.939598,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_arm_lower",
+			"mesh_file":"right_arm_lower.obj",
+			"material_file":"right_arm_lower.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"right_elbow",
+					"x": 0,
+					"y": 0.939597,
+					"z": 0
+				},
+                {
+					"id":"right_wrist",
+					"x": 0,
+					"y": -0.939598,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_hand",
+			"mesh_file":"right_hand.obj",
+			"material_file":"right_hand.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"right_wrist",
+					"x": -0.081074,
+					"y": 0.619716,
+					"z": -0.063217
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_leg_upper",
+			"mesh_file":"left_leg_upper.obj",
+			"material_file":"left_leg_upper.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+				{
+					"id":"left_hip",
+					"x": 0,
+					"y": 1.246047,
+					"z": 0
+				},
+                {
+					"id":"left_knee",
+					"x": 0,
+					"y": -1.246047,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_leg_lower",
+			"mesh_file":"left_leg_lower.obj",
+			"material_file":"left_leg_lower.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"left_knee",
+					"x": 0,
+					"y": 1.081019,
+					"z": 0
+				},
+                {
+					"id":"left_ankle",
+					"x": 0,
+					"y": -1.134593,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"left_foot",
+			"mesh_file":"left_foot.obj",
+			"material_file":"left_foot.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"left_ankle",
+					"x": 0.676931,
+					"y": 0.281418,
+					"z": -0.013224
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_leg_upper",
+			"mesh_file":"right_leg_upper.obj",
+			"material_file":"right_leg_upper.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": -0.426051,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0.215935,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+				{
+					"id":"right_hip",
+					"x": 0,
+					"y": 1.246047,
+					"z": 0
+				},
+                {
+					"id":"right_knee",
+					"x": 0,
+					"y": -1.246047,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_leg_lower",
+			"mesh_file":"right_leg_lower.obj",
+			"material_file":"right_leg_lower.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"right_knee",
+					"x": 0,
+					"y": 1.081019,
+					"z": 0
+				},
+                {
+					"id":"right_ankle",
+					"x": 0,
+					"y": -1.134593,
+					"z": 0
+				}
+			],
+			"interaction_points":[]
+		},
+        {
+			"id":"right_foot",
+			"mesh_file":"right_foot.obj",
+			"material_file":"right_foot.mtl",
+			"unit_of_measure":"met",
+			"resolution": 6.0,
+			"top":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"front":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": {
+				"x": 1.0,
+				"y": 1.0,
+				"z": 1.0
+			},
+			"rotation_angles": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"attach_points":[
+                {
+					"id":"right_ankle",
+					"x": -0.676931,
+					"y": 0.281419,
+					"z": -0.013224
+				}
+			],
+			"interaction_points":[]
+		}
+	],
+	"attachments":[
+		[
+			"head.neck",
+			"torso_upper.neck"
+		],
+        [
+			"torso_upper.abdomen",
+            "torso_lower.abdomen"
+		],
+        [
+            "torso_upper.left_shoulder",
+            "left_arm_upper.left_shoulder"
+        ],
+        [
+            "left_arm_upper.left_elbow",
+            "left_arm_lower.left_elbow"
+        ],
+        [
+            "left_arm_lower.left_wrist",
+            "left_hand.left_wrist"
+        ],
+        [
+            "torso_upper.right_shoulder",
+            "right_arm_upper.right_shoulder"
+        ],
+        [
+            "right_arm_upper.right_elbow",
+            "right_arm_lower.right_elbow"
+        ],
+        [
+            "right_arm_lower.right_wrist",
+            "right_hand.right_wrist"
+        ],
+        [
+            "torso_lower.left_hip",
+            "left_leg_upper.left_hip"
+        ],
+        [
+            "left_leg_upper.left_knee",
+            "left_leg_lower.left_knee"
+        ],
+        [
+            "left_leg_lower.left_ankle",
+            "left_foot.left_ankle"
+        ],
+        [
+            "torso_lower.right_hip",
+            "right_leg_upper.right_hip"
+        ],
+        [
+            "right_leg_upper.right_knee",
+            "right_leg_lower.right_knee"
+        ],
+        [
+            "right_leg_lower.right_ankle",
+            "right_foot.right_ankle"
+        ]
+	]
+}

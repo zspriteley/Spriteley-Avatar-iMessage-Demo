@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70B2E35628108C6300CC8528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B2E35528108C6300CC8528 /* Assets.xcassets */; };
+		70B2E35C28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70B2E35B28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70B2E36128108C6300CC8528 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B2E36028108C6300CC8528 /* Messages.framework */; };
+		70B2E36428108C6300CC8528 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2E36328108C6300CC8528 /* MessagesViewController.swift */; };
+		70B2E36728108C6300CC8528 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B2E36528108C6300CC8528 /* MainInterface.storyboard */; };
+		70B2E36928108C6300CC8528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B2E36828108C6300CC8528 /* Assets.xcassets */; };
+		70B2E37528108D0A00CC8528 /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2E37428108D0A00CC8528 /* AvatarViewController.swift */; };
+		70B2E3772810900E00CC8528 /* Libparseley.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B2E3762810900E00CC8528 /* Libparseley.xcframework */; };
+		70B2E3792810903A00CC8528 /* AvatarScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2E3782810903A00CC8528 /* AvatarScene.swift */; };
+		70B2E37D281090EF00CC8528 /* RustManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2E37C281090EF00CC8528 /* RustManager.swift */; };
+		70B2E37F2810917700CC8528 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 70B2E37E2810917700CC8528 /* resource */; };
+		70B2E3802810917700CC8528 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 70B2E37E2810917700CC8528 /* resource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B2E35D28108C6300CC8528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B2E34C28108C6200CC8528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B2E35A28108C6300CC8528;
+			remoteInfo = "Spriteley Demo iMessage Avatar MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70B2E37028108C6300CC8528 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70B2E35C28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70B2E35228108C6200CC8528 /* Spriteley Demo iMessage Avatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spriteley Demo iMessage Avatar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B2E35528108C6300CC8528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B2E35B28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Spriteley Demo iMessage Avatar MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B2E36028108C6300CC8528 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		70B2E36328108C6300CC8528 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		70B2E36628108C6300CC8528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		70B2E36828108C6300CC8528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70B2E36A28108C6300CC8528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B2E37428108D0A00CC8528 /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
+		70B2E3762810900E00CC8528 /* Libparseley.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libparseley.xcframework; sourceTree = "<group>"; };
+		70B2E3782810903A00CC8528 /* AvatarScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarScene.swift; sourceTree = "<group>"; };
+		70B2E37C281090EF00CC8528 /* RustManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RustManager.swift; sourceTree = "<group>"; };
+		70B2E37E2810917700CC8528 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B2E35828108C6300CC8528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2E3772810900E00CC8528 /* Libparseley.xcframework in Frameworks */,
+				70B2E36128108C6300CC8528 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70B2E34B28108C6200CC8528 = {
+			isa = PBXGroup;
+			children = (
+				70B2E35428108C6200CC8528 /* Spriteley Demo iMessage Avatar */,
+				70B2E36228108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension */,
+				70B2E35F28108C6300CC8528 /* Frameworks */,
+				70B2E35328108C6200CC8528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70B2E35328108C6200CC8528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B2E35228108C6200CC8528 /* Spriteley Demo iMessage Avatar.app */,
+				70B2E35B28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B2E35428108C6200CC8528 /* Spriteley Demo iMessage Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				70B2E35528108C6300CC8528 /* Assets.xcassets */,
+			);
+			path = "Spriteley Demo iMessage Avatar";
+			sourceTree = "<group>";
+		};
+		70B2E35F28108C6300CC8528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70B2E3762810900E00CC8528 /* Libparseley.xcframework */,
+				70B2E36028108C6300CC8528 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70B2E36228108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				70B2E36328108C6300CC8528 /* MessagesViewController.swift */,
+				70B2E37428108D0A00CC8528 /* AvatarViewController.swift */,
+				70B2E3782810903A00CC8528 /* AvatarScene.swift */,
+				70B2E37C281090EF00CC8528 /* RustManager.swift */,
+				70B2E37E2810917700CC8528 /* resource */,
+				70B2E36528108C6300CC8528 /* MainInterface.storyboard */,
+				70B2E36828108C6300CC8528 /* Assets.xcassets */,
+				70B2E36A28108C6300CC8528 /* Info.plist */,
+			);
+			path = "Spriteley Demo iMessage Avatar MessagesExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B2E35128108C6200CC8528 /* Spriteley Demo iMessage Avatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B2E37128108C6300CC8528 /* Build configuration list for PBXNativeTarget "Spriteley Demo iMessage Avatar" */;
+			buildPhases = (
+				70B2E35028108C6200CC8528 /* Resources */,
+				70B2E37028108C6300CC8528 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B2E35E28108C6300CC8528 /* PBXTargetDependency */,
+			);
+			name = "Spriteley Demo iMessage Avatar";
+			productName = "Spriteley Demo iMessage Avatar";
+			productReference = 70B2E35228108C6200CC8528 /* Spriteley Demo iMessage Avatar.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		70B2E35A28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B2E36D28108C6300CC8528 /* Build configuration list for PBXNativeTarget "Spriteley Demo iMessage Avatar MessagesExtension" */;
+			buildPhases = (
+				70B2E35728108C6300CC8528 /* Sources */,
+				70B2E35828108C6300CC8528 /* Frameworks */,
+				70B2E35928108C6300CC8528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spriteley Demo iMessage Avatar MessagesExtension";
+			productName = "Spriteley Demo iMessage Avatar MessagesExtension";
+			productReference = 70B2E35B28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B2E34C28108C6200CC8528 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					70B2E35128108C6200CC8528 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					70B2E35A28108C6300CC8528 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 70B2E34F28108C6200CC8528 /* Build configuration list for PBXProject "Spriteley Demo iMessage Avatar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B2E34B28108C6200CC8528;
+			productRefGroup = 70B2E35328108C6200CC8528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B2E35128108C6200CC8528 /* Spriteley Demo iMessage Avatar */,
+				70B2E35A28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B2E35028108C6200CC8528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2E37F2810917700CC8528 /* resource in Resources */,
+				70B2E35628108C6300CC8528 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B2E35928108C6300CC8528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2E36928108C6300CC8528 /* Assets.xcassets in Resources */,
+				70B2E36728108C6300CC8528 /* MainInterface.storyboard in Resources */,
+				70B2E3802810917700CC8528 /* resource in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B2E35728108C6300CC8528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B2E36428108C6300CC8528 /* MessagesViewController.swift in Sources */,
+				70B2E37D281090EF00CC8528 /* RustManager.swift in Sources */,
+				70B2E3792810903A00CC8528 /* AvatarScene.swift in Sources */,
+				70B2E37528108D0A00CC8528 /* AvatarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B2E35E28108C6300CC8528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B2E35A28108C6300CC8528 /* Spriteley Demo iMessage Avatar MessagesExtension */;
+			targetProxy = 70B2E35D28108C6300CC8528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B2E36528108C6300CC8528 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B2E36628108C6300CC8528 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B2E36B28108C6300CC8528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70B2E36C28108C6300CC8528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B2E36E28108C6300CC8528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYHC2N5833;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spriteley Demo iMessage Avatar MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spriteley Demo iMessage Avatar";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spriteley.Spriteley-Demo-iMessage-Avatar.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B2E36F28108C6300CC8528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYHC2N5833;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Spriteley Demo iMessage Avatar MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spriteley Demo iMessage Avatar";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spriteley.Spriteley-Demo-iMessage-Avatar.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70B2E37228108C6300CC8528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYHC2N5833;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spriteley.Spriteley-Demo-iMessage-Avatar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B2E37328108C6300CC8528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GYHC2N5833;
+				ENABLE_BITCODE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Spriteley.Spriteley-Demo-iMessage-Avatar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B2E34F28108C6200CC8528 /* Build configuration list for PBXProject "Spriteley Demo iMessage Avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2E36B28108C6300CC8528 /* Debug */,
+				70B2E36C28108C6300CC8528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B2E36D28108C6300CC8528 /* Build configuration list for PBXNativeTarget "Spriteley Demo iMessage Avatar MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2E36E28108C6300CC8528 /* Debug */,
+				70B2E36F28108C6300CC8528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B2E37128108C6300CC8528 /* Build configuration list for PBXNativeTarget "Spriteley Demo iMessage Avatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B2E37228108C6300CC8528 /* Debug */,
+				70B2E37328108C6300CC8528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B2E34C28108C6200CC8528 /* Project object */;
+}
